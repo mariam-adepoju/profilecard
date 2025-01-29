@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/4cea918ca9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div>
+          <img
+            src="./profile.jpg"
+            alt="Profile Pics"
+            data-testid="profilePicture"
+          />
+        </div>
+        <div>
+          <p data-testid="fullName">Adepoju Mariam</p>
+        </div>
+        <div>
+          <p data-testid="jobTitle">Intern Web-Developer</p>
+        </div>
+        <div>
+          <p data-testid="shortBio">
+            A passionate web developer with a knack for creating intuitive,
+            responsive websites. Skilled in HTML, CSS, JavaScript, and various
+            frameworks, dedicated to delivering high-quality user experiences.
+            Strong problem-solving abilities and a keen eye for detail, always
+            eager to learn and adopt new technologies.
+          </p>
+        </div >
+        <div data-testid="currentLocation">
+          <p>Ife, Nigeria</p>
+        </div>
+        <div data-testid="emailAddress">
+          <p>marrizon.am@gmail.com</p>
+        </div>
+        <div data-testid="socialLinks">
+          <i class="fa-brands fa-github-alt"></i
+          ><span class="label">Github:</span
+          ><a href="//github.com/mariam-adepoju" target="-blank"><span>//github.com/mariam-adepoju<a></a></span>
+        </div>
+        <div>
+          <div data-testid="currentTimeUTC" class="timeContainer"></div>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
