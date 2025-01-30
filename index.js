@@ -1,6 +1,6 @@
 const timeContainer = document.querySelector(".timeContainer")
 
-let time = new Date()
-console.log(time)
+let time = new Date().toUTCString()
+
 timeContainer.innerHTML = time
 
